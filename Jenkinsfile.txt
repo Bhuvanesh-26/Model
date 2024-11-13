@@ -11,7 +11,7 @@ pipeline {
       steps {
 	echo 'Stage Hello'
         sh 'javac Test.java'
-	sh 'java hello'
+	sh 'Test hello'
 	sh 'python3 hello.py'
       }
     }
